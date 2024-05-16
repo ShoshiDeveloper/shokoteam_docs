@@ -1,6 +1,3 @@
-<script setup lang="ts">
-</script>
-
 <template>
     <h1>Политика конфиденциальности для мобильного приложения<br>"Fores"</h1>
     <h2>1. Определение понятий</h2>
@@ -116,7 +113,7 @@
 
 </template>
 
-<style>
+<style scoped>
 * {
     text-align: center;
 }
