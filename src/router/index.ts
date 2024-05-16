@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import ForesPP from '../views/ForesPP.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -6,7 +7,7 @@ const router = createRouter({
     {
       path: '/forespolicy',
       name: 'forespolicy',
-      component: () => import('../views/ForesPP.vue')
+      component: ForesPP
     }
   ]
 })

@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import ForesPP from './views/ForesPP.vue';
 </script>
 
 <template>
